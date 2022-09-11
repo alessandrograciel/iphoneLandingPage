@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,user-scalabre=0" />
+    <link rel="stylesheet" type="text/css" href="assets/css/template.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/android-icon-36x36.png">
+    <script>
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector("#menu ul").style.display == 'flex'){
+                    document.querySelector("#menu ul").style.display = 'none';
+                }else{
+                    document.querySelector("#menu ul").style.display = 'flex';
+                }
+            });
+        }
+    </script>
+    <title>Iphone 14</title>
+</head>
+
+<body>
+    <header>
+        <div class="container space">
+            <div class="logo"><a href="index.html"><img src="assets/img/apple-logo-1.png" /></a></div>
+            <nav id="menu">
+                <div class="menuMobile">
+                    <div class="menuLine"></div>
+                    <div class="menuLine"></div>
+                    <div class="menuLine"></div>
+                </div>
+                <ul>
+                    <li><a href="index.html">Iphone 14</a></li>
+                    <li><a href="#visaoGeral">Tecnologia</a></li>
+                    <li><a href="#precos">Preços</a></li>
+                    <li><a href="#accident">Segurança</a></li>
+                    <li><a href="https://www.apple.com/br/" target="_blank">Apple</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="banner">
+        <div class="container">
+            <div class="formulario">
+                <h1>Escreva-se agora para <span class="maisIphone">mais sobre o Iphone 14</span></h1>
+                <form action="">
+                    <label>
+                        <input type="text" name="nome" placeholder="Nome" />
+                    </label>
+                    <label>
+                        <input type="email" name="email" placeholder="Email" />
+                    </label>
+                    <button>Inscreva-se</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="visaoGeral">
+        <div class="container">
+            <div class="itemDescription">
+                <div class="itemIMG"><img src="assets/img/aluminio.jpg"></div>
+                <div class="imgDescription">
+                    <h3>Alumínio Aero Espacial</h3>
+                    Lindo e feito para durar com alta relação resistência/peso, eficiência energética e alta tolerância
+                    a temperaturas extremas
+                </div>
+            </div>
+            <div class="itemDescription">
+                <div class="itemIMG"><img src="assets/img/tela.jpg"></div>
+                <div class="imgDescription">
+                    <h3>Tela Super Retina XDR</h3>
+                    Projetadas para atender apadrões incrivelmente altos oferecendo uma precisão incrível de cores.
+                </div>
+            </div>
+            <div class="itemDescription">
+                <div class="itemIMG"><img src="assets/img/camera.jpg"></div>
+                <div class="imgDescription">
+                    <h3>Câmeras, ação.</h3>
+                    Com a nova câmera grande‑angular e melhorias no processamento de imagem, você faz fotos ainda mais
+                    espetaculares em qualquer cenário.
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="precos">
+        <div class="container iphonesCont">
+            <div class="precoTittle">
+                <h2>Qual é o iPhone ideal para você?</h2>
+            </div>
+            <div class="precoProduct">
+                <div class="productIphone">
+                    <a href="">
+                    <div class="productImg"><img src="assets/img/14pro.jfif"></div>
+                    <div class="productPrice">
+                        <h4>iPhone 14 Pro</h4>
+                        A partir de R$ 9.499
+                    </div>
+                    </a>
+                    <div class="productDescription">
+                        6,7 pol. ou 6,1 pol.<br />
+                        Tela Super Retina XDR nota de rodapé¹ -
+                        Tecnologia ProMotion -
+                        Tela Sempre Ativa
+                    </div>
+                </div>
+                <div class="productIphone">
+                    <a href="">
+                    <div class="productImg"><img src="assets/img/iphone14.jfif"></div>
+                    <div class="productPrice">
+                        <h4>iPhone 14</h4>
+                        A partir de R$ 7.599
+                    </div>
+                    </a>
+                    <div class="productDescription">
+                        6,7 pol. ou 6,1 pol.<br />
+
+                        Tela Super Retina XDR
+                    </div>
+                </div>
+                <div class="productIphone">
+                    <a href="">
+                    <div class="productImg"><img src="assets/img/iphone13.jfif"></div>
+                    <div class="productPrice">
+                        <h4>iPhone 13</h4>
+                        A partir de R$ 5.699
+                    </div>
+                    </a>
+                    <div class="productDescription">
+                        6,1 pol. ou 5,4 pol.<br />
+                        Tela Super Retina XDR
+                    </div>
+                </div>
+                <div class="productIphone">
+                    <a href="">
+                    <div class="productImg"><img src="assets/img/se.jfif"></div>
+                    <div class="productPrice">
+                        <h4>iPhone SE</h4>
+                        A partir de R$ 4.299
+                    </div>
+                    </a>
+                    <div class="productDescription">
+                        4,7˝
+                        Tela Retina HD nota de rodapé¹
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="accident">
+        <div class="container">
+            <div class="detection">A Detecção de
+                Acidente liga para
+                a emergência se
+                você não puder.</div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="copy">
+            Copyright © 2022 Apple Inc. Todos os direitos reservados. Apple Computer Brasil Ltda.
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
